@@ -1,0 +1,52 @@
+{
+    "basic": {
+        "name": "Basic",
+        "chance": 15,
+        "limit": 20,
+        "hp": 5,
+        "speed": 0.04,
+        "weight": 1,
+        "score": 5,
+        "box": [8, 6],
+        "image": [[0, 0], [8, 8]]
+    },
+    "big": {
+        "name": "Big",
+        "chance": 7,
+        "limit": 4,
+        "hp": 20,
+        "speed": 0.02,
+        "weight": 3,
+        "score": 25,
+        "box": [16, 6],
+        "image": [[0, 1], [16, 16]]
+    },
+    "cannon": {
+        "name": "Cannon",
+        "chance": 1,
+        "limit": 2,
+        "hp": 10,
+        "speed": 0.03,
+        "weight": 3,
+        "score": 50,
+        "ammomax": 1,
+        "cooldowntime": 0,
+        "reloadtime": 180,
+        "box": [16, 6],
+        "image": [[0, 3], [16, 16]]
+    },
+    "boss": {
+        "name": "Boss",
+        "chance": 0,
+        "limit": 0,
+        "hp": 200,
+        "speed": 0,
+        "weight": 100000,
+        "score": 100,
+        "ammomax": 0,
+        "cooldowntime": 0,
+        "reloadtime": 0,
+        "box": [32, 8],
+        "image": [[0, 5], [32, 24]]
+    }
+}
